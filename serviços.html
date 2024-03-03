@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=devide-width, initial-scale=1">	
+	<title>Serviços</title>	
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+	<link rel="stylesheet" type="text/css" href="estilo.css">
+</head>
+<body>
+	<main class="container">
+	<header>
+    	<h1>Menu</h1>
+    	<nav>
+    		<ul class="row">
+        		<li><a class="btn btn-success" href="index.html" role="button">Pagina Inicial</a></li>
+        		<li><a class="btn btn-success" href="contato.html" role="button">Contato</a></li>
+        		<li><a class="btn btn-success" href="equipe.html" role="button">Equipe</a></li>
+        		<li><a class="btn btn-success" href="serviços.html" role="button">Serviços</a></li>
+        		<li><a class="btn btn-success" href="redes.html" role="button">Redes Sociais</a></li>
+    		</ul>
+    	</nav>
+    </header>
+    <div class="barra-de-acessibilidade row">
+    	<a href="#topografia" accesskey="1" class="link-de-acessibilidade col-2">Ir para Topografia</a>
+    	<a href="#imagens-drone" accesskey="2" class="link-de-acessibilidade col-2">Ir para Drone</a>
+    	<a href="#saneamento" accesskey="3" class="link-de-acessibilidade col-2">Ir para Projetos de saneamento</a>
+    	<a href="#terraplanagem" accesskey="4" class="link-de-acessibilidade col-2">Ir para Terraplanegem</a>
+    	<a href="#gerenciamento" accesskey="5" class="link-de-acessibilidade col-2">Ir para Gerenciamento e acompanhamento de obras</a>
+    	<a href="#rodovias" accesskey="6" class="link-de-acessibilidade col-2">Ir para Estudo de tráfego de rodovias</a>
+  	</div>
+  	<figure class="figure">
+  		<img src="imagens/logotipo-supremo.png" class="figure-img img-fluid rounded" alt="logotipo da empresa Supremo Soluções Ambientais e Serviçoso">
+	</figure>
+		<h2>Nossos Serviços</h2>
+		<div class="row">	 
+			<div id="topografia" class="col-6">
+				<figure class="figure">
+	  				<img src="imagens/topografia.png" class="figure-img img-fluid rounded" alt="Imagens do serviço de topografia em campo e mapa topográfico">
+				</figure>
+				<dl>			
+					<dt><strong>Serviços de Topografia</strong></dt>
+					<dd>Levantamentos topográficos em geral e locação de obras.</dd>
+				</dl>
+			</div>
+			<div id="saneamento" class="col-6">
+				<figure class="figure">
+	  				<img src="imagens/saneamento.png" class="figure-img img-fluid rounded" alt="Planta baixa de projetos de água, esgoto e drenagemo">
+				</figure>	
+				<dl>			
+					<dt><strong>Projetos de Saneamento</strong></dt>
+					<dd>Elaboração de projetos de abastecimento de água, coleta de esgoto sanitário, E.E.E., e projetos de drenagem de águas pluviais.</dd>
+				</dl>
+			</div>
+			<div id="imagens-drone" class="col-6">	
+				<figure class="figure">
+	  				<img src="imagens/imagens-drone.png" class="figure-img img-fluid rounded" alt="Imagens aéreas de areas arborizadas feitas com o auxílio de drone">
+				</figure>
+				<dl>			
+					<dt><strong>Drone</strong></dt>
+					<dd>Levantamentos e filmagens com Drone.</dd>
+				</dl>
+			</div>
+			<div id="terraplanagem" class="col-6">
+				<figure class="figure">
+	  				<img src="imagens/terraplanagem.png" class="figure-img img-fluid rounded" alt="Representação gráfica de perfís de terraplanagem">
+				</figure>	
+				<dl>			
+					<dt><strong>Terraplanagem</strong></dt>
+					<dd>Elaboração de projetos de terraplanagem com especificação de corte, aterro e volume.</dd>
+				</dl>
+			</div>
+			<div id="gerenciamento" class="col-6">
+				<figure class="figure">
+	  				<img src="imagens/gerenciamento-execução-obras.png" class="figure-img img-fluid rounded" alt="Imagens de Obras partindo da fase inicial de loteamento até a construção pronta">
+				</figure>
+				<dl>
+					<dt><strong>Gerenciamento e Acompanhamento de obras</strong></dt>
+					<dd>Gerenciamento de obras de loteamentos e execução de drenagem, terraplanagem, rede de água e rede de esgoto.</dd>
+				</dl>
+			</div>
+			<div id="rodovias" class="col-6">	
+				<dl>			
+					<dt><strong>Estudo de tráfego de rodovias</strong></dt>
+					<dd>Elaboração de Estudo de tráfego para aprovação nas concessionárias e ARTESP.</dd>
+				</dl>
+			</div>
+		</div>	
+	</main>
+	<!-- Observação: Como nesse trabalho estamos fazendo apenas a estilização da página e não foi utilizado nenhum script não vou inserir os comandos de importação a seguir, isso melhora o score de acessibilidade
+
+	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+
+	-->
+</body>
+</html>

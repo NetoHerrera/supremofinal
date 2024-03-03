@@ -1,0 +1,97 @@
+*{
+	box-sizing: borderbox;
+	margin: 0;
+	padding: 0;
+}
+.link-de-acessibilidade {
+  color: orange;
+}
+h1 {
+  color: green;
+}
+h2 {
+  color: green;
+}
+h3 {
+  color: green;
+}
+.figure-caption {
+  color: orange;
+}
+dt {
+  color: green;
+}
+dd {
+  color: orange;
+}
+.sobre {
+  color: green;
+}
+li {
+  list-style-type: none;
+}
+.formulario{
+	background-color: whitesmoke;
+	border-radius: 10px;
+	justify-content: center;
+	align-items: cecnter;
+	width: 400px;
+	max-width: 100%;
+	overflow: hidden;
+}	
+.header{
+	background-color: lightgray;
+	padding: 20px;
+	border-radius: 10px;
+}
+.form{
+	padding: 20px;
+}
+.form-control {
+	margin-bottom: 5px;
+	padding-bottom: 90px;
+	position: relative;
+}
+.form-control label{
+	display: inline-block;
+	margin-bottom: 5px;
+}
+.form-control input{
+	border: 2px solid black;
+	display: block;
+	border-radius: 10px;
+	font-size: 15px;
+	width: 100%;
+	padding: 5px;
+}
+.form-control small{
+	position:absolute;
+	bottom:0;
+	left:10px;
+	visibility: hidden;
+}
+.form button{
+	background-color: green;
+	border:2px solid darkgreen;
+	color:white;
+	font-size: 15px;
+	width:100%;
+	border-radius: 10px;
+	padding: 5px;
+}
+.form-control.success input{
+	border-color:green;
+}
+.form-control.error input{
+	border-color:red;
+}
+.form-control.error small{
+	visibility: visible;
+	color:red;
+}
+.aviso{
+	font-size: 12px;
+}
+#final{
+	padding-bottom: 140px;
+}
